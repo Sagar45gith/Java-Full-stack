@@ -1,0 +1,33 @@
+CSS: css is used to style the webpage. It can be used to change the color, font, size, and layout of the elements on the page. CSS can be applied to HTML elements using selectors, and it can be included in the HTML document in three ways: inline, internal, and external.
+
+1. Inline CSS: This is when you apply CSS directly to an HTML element using the style attribute. For example:
+```html<p style="color: blue; font-size: 20px;">This is a blue paragraph.</p>
+
+2. Internal CSS: This is when you include CSS within a <style> tag in the head of the HTML document.
+
+3. External CSS: This is when you link to an external CSS file using the <link> tag in the head of the HTML document.
+
+Selectors are used to target specific HTML elements to apply styles. There are different types of selectors, including:
+- Element selectors: Target specific HTML elements (e.g., p, h1, div).
+- Class selectors: Target elements with a specific class attribute (e.g., .my-class).
+- ID selectors: Target a specific element with a unique ID attribute (e.g., #my-id).
+-Grouping selectors: Target multiple elements with the same styles (e.g., h1, h2, h3 { color: red; }).
+-universal selector: Target all elements on the page (e.g., * { margin: 0; padding: 0; }).
+-Desencendant selectors: Target elements that are descendants of a specific element (e.g., div p { color: green; }).
+
+Box model: The CSS box model is a fundamental concept that describes how elements are structured and how they interact with each other. It consists of four main components:
+Margin -> Border -> Padding -> Content
+- Content: The actual content of the element (text, images, etc.).
+- Padding: The space between the content and the border.    
+- Border: The line that surrounds the padding and content.
+- Margin: The space outside the border that separates the element from other elements.
+
+
+flexbox: Flexbox is a layout model in CSS that allows you to create flexible and responsive layouts. It provides a more efficient way to align and distribute space among items in a container, even when their size is unknown or dynamic. The main properties of flexbox include:
+- display: flex; - This property is used to define a flex container.
+
+
+
+Grid:
+Used to create a 2D layouts rows and columns 
+

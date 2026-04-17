@@ -1,0 +1,13 @@
+div{
+    background-color: rgb(176, 176, 211);
+    padding: 10px;
+    border: 2px solid black;
+    margin:20px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

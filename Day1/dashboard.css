@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f6fb;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 220px;
+    height: 100vh;
+    background: #1e5bb8;
+    color: white;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    margin-bottom: 30px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin: 15px 0;
+    cursor: pointer;
+}
+
+.semester {
+    margin-top: 40px;
+}
+
+.progress {
+    background: #ddd;
+    height: 6px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.progress div {
+    height: 6px;
+    background: #ffcc00;
+    border-radius: 10px;
+}
+
+.main {
+    flex: 1;
+    padding: 20px;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.topbar input {
+    width: 60%;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: none;
+    background: #e9ecf5;
+}
+
+.profile-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+.profile-card img {
+    width: 90px;
+}
+
+h3 {
+    margin-top: 30px;
+}
+
+.assignment-cards {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    flex: 1;
+}
+
+.lesson-cards {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.lesson {
+    flex: 1;
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+.yellow {
+    background: #f4b400;
+}
+
+.red {
+    background: #ff5c5c;
+}
+
+.right-panel {
+    width: 260px;
+    background: white;
+    padding: 20px;
+    border-left: 1px solid #ddd;
+}
+
+.calendar {
+    margin-top: 15px;
+}
+
+.days-name {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    text-align: center;
+    font-weight: bold;
+}
+
+.dates {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.dates span {
+    text-align: center;
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.dates span:hover {
+    background: #eee;
+}
+
+.dates .active {
+    background: #1e5bb8;
+    color: white;
+}
+
+.tasks {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.tasks li {
+    margin: 10px 0;
+}
+
+.create-btn {
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background: #1e5bb8;
+    color: white;
+    cursor: pointer;
+}
