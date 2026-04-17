@@ -1,0 +1,30 @@
+Javascript:
+its the brain of the web, it can do a lot of things, adding logic to your website, making it interactive, and allowing you to create dynamic content.
+It can be used to create interactive websites, games, and even mobile apps.
+
+we can use js in three ways:
+1. Inline: we can write js code directly in the HTML file using the <script> tag.
+2. Internal: we can write js code in a separate file and link it to the HTML.
+3. External: we can write js code in a separate file and link it to the HTML using the <script> tag with the src attribute.
+
+Functions:
+Functions are reusable blocks of code that perform a specific task. They can take input, process it, and return an output. Functions help us to organize our code and make it more modular.
+Example of a function:  
+function add(a, b) {
+  return a + b; // returns the sum
+}
+let result = add(5, 10);
+console.log(result); // Output: 15
+
+Arrow Functions:
+Arrow functions are a more concise way to write functions in JavaScript. They are often used for short functions that do not require a lot of code. Arrow functions do not have their own 'this' context, which can be useful in certain situations.
+
+DOM:
+The Document Object Model (DOM) is a programming interface for HTML and XML documents. It represents the structure of a document as a tree of objects, allowing developers to manipulate the content and structure of a webpage using JavaScript. With the DOM, you can access and modify elements, attributes, and styles of a webpage dynamically.
+Example of DOM manipulation:
+// Get the element with id "myElement"
+let element = document.getElementById("myElement");
+// Change the text content of the element
+element.textContent = "Hello, World!";
+// Change the background color of the element
+element.style.backgroundColor = "yellow";
